@@ -10,8 +10,8 @@ Placeholder:
 TODO:
 Snake: utiliser le document pdf de remise (dijkstra)
 FLahk: fais une petite démo.
-Upload game pad
+Upload gamepad
 Upload PY notes
 
-Faire repo Minitalk avec gifs
+Minitalk gifs
 Minishell
