@@ -1,8 +1,8 @@
 [
 	{
 		"title": "Snake Game",
-		"text": "Simple C++ game featuring a bot that uses the Dijkstra algorithm implemented in O(n).\nTODO: travailler mon document de remise pour l'algo.",
-		"image": "https://camo.githubusercontent.com/a0bbb51e3604a3fdb67971fb52b390c1b538e211e3a2b1aec7ab0ad34a61a749/68747470733a2f2f692e706f7374696d672e63632f78645258775a77342f64696a6b737472612d6d61702d766964652e676966",
+		"text": "Simple C++ game featuring a bot that uses the Dijkstra algorithm implemented in O(n).",
+		"image": "https://i.postimg.cc/MTLQMq9x/dijkstra-critical-point.gif",
 		"link": "https://github.com/francoismartineau/snake_game"
 	},
 	{
