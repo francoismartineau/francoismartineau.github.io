@@ -13,7 +13,7 @@
 	},
 	{
 		"title": "Transaction",
-		"text": "Automating analysis of my personal finances.<br>(Python, Tesseract-OCR, Google Sheets api)",
+		"text": "Automates the analysis of my personal finances.<br>(Python, Tesseract-OCR, Google Sheets api)",
 		"image": "",
 		"link": "https://github.com/francoismartineau/transactions"
 	},
@@ -27,7 +27,7 @@
 		"title": "Minishell",
 		"text": "A shell written in C that immitates bash.",
 		"image": "https://i.postimg.cc/Kzv0JVYs/Screen-Shot-2024-01-05-at-4-18-46-PM.png",
-		"link": "https://github.com/Ethylia/minishell/tree/main"
+		"link": "https://github.com/Ethylia/minishell"
 	},	
 	{
 		"title": "Isometric wireframe projection",
@@ -44,14 +44,14 @@
 	{
 		"title": "ft_irc",
 		"text": "A chat server in C++ that follows the IRC protocol. Compatible with any IRC client and robust thanks to our stress tests.",
-		"image": "https://i.postimg.cc/BsKB47CZ/irc-chat.gif",
+		"image": "",
 		"link": "https://github.com/emgervais/ft_irc"
 	},
 	{
 		"title": "Bank data extraction",
 		"text": "Wanting to get a big picture of my finances, I made this script that reads data from my bank statements pdf files. I explored many techniques of pdf extraction, but I ended up using Optical Character Recognition since it was the only truly reliable technique I found. Data is then uploaded to a Google Sheets document. I'm currently working on the data vizualisation in Google Sheets.",
 		"image": "",
-		"link": ""
+		"link": "https://github.com/francoismartineau/transactions"
 	},
 	{
 		"title": "A server that provides tools for Prop Lavage inc.",
@@ -63,6 +63,6 @@
 		"title": "Internship at Coyote Amérique",
 		"text": "I participated in the R&D division working on the next version of Coyote, an app/device that competes with Google Maps in Europe. As a full-stack developer, I created a monitoring tool designed for my team and other colleagues. Throughout this project, I gained proficiency in Go, Vue.js, Docker, gRPC, Apache Kafka, and Kubernetes. I also honed my skills in Git and Bash. Specifically for Vue.js, I served as a scout, introducing and presenting the technology to my peers. I am very happy with this internship and am grateful for my colleagues who were very knowledgeable and generous.",
 		"image": "",
-		"link": "https://www.moncoyote.com/"
+		"link": ""
 	}
 ]

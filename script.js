@@ -2,23 +2,19 @@ fetch('projects.json')
 .then(response => response.json())
 .then(data => {
   const container = document.getElementById('projectsContainer');
-  const row = document.createElement('div');
-  row.classList.add('row');
+  // const row = document.createElement('div');
+  // row.classList.add('row');
+  // row.classList.add('row-cols-auto');
   data.forEach(project => {
     const div = document.createElement('div');
-    div.classList.add('col-md-4');
-    div.className = 'card'; //
+    div.classList.add('card');
     div.innerHTML = 
-    `<div class="card" style="width: 18rem;">
-      ${project.image ? `<img src="${project.image}" class="card-img-top" alt="...">` : ''}
-      <div class="card-body">
+    `${project.image ? `<img src="${project.image}" alt="...">` : ''}
         <h5 class="card-title">${project.title}</h5>
         <p class="card-text">${project.text}</p>
-        <a href="${project.link}" class="btn btn-primary">More</a>
-      </div>
-    </div>`;    
-    row.appendChild(div);
+        ${project.link ? `<a href="${project.link}" class="btn btn-primary">Repository</a>` : ''}`;    
+      container.appendChild(div);
   });
-  container.appendChild(row);
+  // container.appendChild(row);
 })
 .catch(error => console.error('Error:', error));
