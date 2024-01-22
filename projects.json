@@ -1,7 +1,7 @@
 [
 	{
 		"title": "Snake Game",
-		"text": "Simple C++ game featuring a bot that uses the Dijkstra algorithm implemented in O(n). When the apple is not in reach, the X represents the most hopeful escape. The snake should zig-zag without blocking it.",
+		"text": "Simple C++ game featuring a bot that uses the Dijkstra algorithm implemented in O(n). When the apple is not in reach, the X represents the most hopeful escape. The snake should zig-zag without blocking it. In progress.",
 		"image": "https://i.postimg.cc/MTLQMq9x/dijkstra-critical-point.gif",
 		"link": "https://github.com/francoismartineau/snake_game"
 	},
@@ -12,8 +12,14 @@
 		"link": "https://github.com/francoismartineau/scraper"
 	},
 	{
+		"title": "Transaction",
+		"text": "Automating analysis of my personal finances.<br>(Python, Tesseract-OCR, Google Sheets api)",
+		"image": "",
+		"link": "https://github.com/francoismartineau/transactions"
+	},
+	{
 		"title": "Web Game",
-		"text": "A web game for movie buffs who want to challenge their knowledge of their favorite movies.<br>(Python, Flask, ffmpeg, Cloudinary api, html, js)",
+		"text": "A game intended for movie buffs who want to challenge their knowledge of their favorite movies.<br>(Python, Flask, ffmpeg, Cloudinary api, html, js)",
 		"image": "https://i.postimg.cc/hGhZYQ4g/Screen-Shot-2024-01-05-at-10-27-45-AM.png",
 		"link": "https://github.com/francoismartineau/moviesorter"
 	},
@@ -25,7 +31,7 @@
 	},	
 	{
 		"title": "Isometric wireframe projection",
-		"text": "A graphical project in C made as part of my studies at 42.",
+		"text": "A C program that displays a map.",
 		"image": "https://camo.githubusercontent.com/ee318a66980cabdb04f5aee59f77f2262a4a1774f6e964e713d468abd71eeac6/68747470733a2f2f692e706f7374696d672e63632f57626d524e4a5a6a2f53637265656e2d53686f742d323032342d30312d30342d61742d31312d35332d31352d414d2e706e67",
 		"link": "https://github.com/francoismartineau/42Fdf"
 	},
@@ -36,14 +42,8 @@
 		"link": "https://github.com/francoismartineau/42Philosophers"
 	},
 	{
-		"title": "Minitalk",
-		"text": "Minitalk is an exercise in C I realized as part of my studies at 42. A client sends data to a server using Unix signals. Bits are sent one by one with SIGUSR1 SIGUSR2.",
-		"image": "",
-		"link": "https://github.com/francoismartineau/42minitalk"
-	},
-	{
 		"title": "ft_irc",
-		"text": "A chat server in C++ that follows the IRC protocol. Compatible with any IRC client and robust thanks to our unit tests.",
+		"text": "A chat server in C++ that follows the IRC protocol. Compatible with any IRC client and robust thanks to our stress tests.",
 		"image": "https://i.postimg.cc/hjcT4BB2/Screen-Shot-2024-01-05-at-3-04-27-PM.png",
 		"link": "https://github.com/emgervais/ft_irc"
 	}

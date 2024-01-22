@@ -4,9 +4,10 @@ fetch('projects.json')
   const container = document.getElementById('projectsContainer');
   data.forEach(project => {
     const div = document.createElement('div');
+    div.className = 'card';
     div.innerHTML = 
     `<div class="card" style="width: 18rem;">
-      <img src="${project.image}" class="card-img-top" alt="...">
+      ${project.image ? `<img src="${project.image}" class="card-img-top" alt="...">` : ''}
       <div class="card-body">
         <h5 class="card-title">${project.title}</h5>
         <p class="card-text">${project.text}</p>
