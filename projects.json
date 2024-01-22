@@ -19,7 +19,7 @@
 	},
 	{
 		"title": "Minishell",
-		"text": "A shell written in C that mimicks bash.",
+		"text": "A shell written in C that immitates bash.",
 		"image": "https://i.postimg.cc/Kzv0JVYs/Screen-Shot-2024-01-05-at-4-18-46-PM.png",
 		"link": "https://github.com/Ethylia/minishell/tree/main"
 	},	
@@ -44,7 +44,26 @@
 	{
 		"title": "ft_irc",
 		"text": "A chat server in C++ that follows the IRC protocol. Compatible with any IRC client and robust thanks to our unit tests.",
-		"image": "https://i.postimg.cc/hjcT4BB2/Screen-Shot-2024-01-05-at-3-04-27-PM.png",
+		"image": "https://i.postimg.cc/BsKB47CZ/irc-chat.gif",
 		"link": "https://github.com/emgervais/ft_irc"
+	},
+	{
+		"title": "Bank data extraction",
+		"text": "Wanting to get a big picture of my finances, I made this script that reads data from my bank statements pdf files. I explored many techniques of pdf extraction, but I ended up using Optical Character Recognition since it was the only truly reliable technique I found. Data is then uploaded to a Google Sheets document. I'm currently working on the data vizualisation in Google Sheets.",
+		"image": "",
+		"link": ""
+	},
+	{
+		"title": "A server that provides tools for Prop Lavage inc.",
+		"text": "It offers a password protected web interface intended to employees of the company. When a customer asks for our services, we can use the interface to get a list of days where it would be optimal to place the contract by calculating the distance between the customer's house and all our fixed contracts in a given time window. It is useful because:\n.It makes contract management faster, easier and more precise.\n.The added precision reduces time spent on the road meaning less mileage and less time wasted by employees on the road.\n.Trucks tend to be closer, meaning if a team encounters a problem, other teams are likely to be able to help.\nOnce a route is complete, the person in charge of managing contracts clicks a button to sort the addresses to optimize the route's length.\nThere is also a module that automatically sends sms to clients the day before their service. The goal is to avoid going at a customer's house that changed their mind.",
+		"image": "",
+		"link": ""
+	},
+	{
+		"title": "Internship at Coyote Amérique",
+		"text": "I participated in the R&D division working on the next version of Coyote, an app/device that competes with Google Maps in Europe. As a full-stack developer, I created a monitoring tool designed for my team and other colleagues. Throughout this project, I gained proficiency in Go, Vue.js, Docker, gRPC, Apache Kafka, and Kubernetes. I also honed my skills in Git and Bash. Specifically for Vue.js, I served as a scout, introducing and presenting the technology to my peers. I am very happy with this internship and am grateful for my colleagues who were very knowledgeable and generous.",
+		"image": "",
+		"link": "https://www.moncoyote.com/"
 	}
+
 ]
