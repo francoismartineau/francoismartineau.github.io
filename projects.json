@@ -43,8 +43,8 @@
 	},
 	{
 		"title": "Philosophers",
-		"text": "A puzzle in C as part of my studies at 42 where N threads must share ressources fairly. I worked with threads, mutexes, forks and semaphores.",
-		"image": "https://i.postimg.cc/NjHTNRZR/Screen-Shot-2024-01-05-at-11-28-12-AM.png",
+		"text": "A C program completed as part of my studies at 42 where N threads must share ressources fairly. I worked with threads, mutexes, forks and semaphores.",
+		"image": "https://i.postimg.cc/c15mqXRq/Screen-Shot-2024-01-05-at-11-28-12-AM.png",
 		"link": "https://github.com/francoismartineau/42Philosophers"
 	},
 	{
@@ -62,7 +62,7 @@
 	{
 		"title": "Internship at Coyote Amérique",
 		"text": "I participated in the R&D division working on the next version of Coyote, an app/device that competes with Google Maps in Europe. As a full-stack developer, I created a monitoring tool designed for my team and other colleagues. Throughout this project, I gained proficiency in Go, Vue.js, Docker, gRPC, Apache Kafka, and Kubernetes. I also honed my skills in Git and Bash. Specifically for Vue.js, I served as a scout, introducing and presenting the technology to my peers. I am very happy with this internship and am grateful for my colleagues who were very knowledgeable and generous.",
-		"image": "",
+		"image": "https://i.postimg.cc/855dF6Rf/coyote-tower.png",
 		"link": ""
 	}
 ]
