@@ -3,66 +3,66 @@
 		"title": "Snake Game",
 		"text": "Simple C++ game featuring a bot that uses the Dijkstra algorithm implemented in O(n). When the apple is not in reach, the X represents the most hopeful escape. The snake should zig-zag without blocking it. In progress.",
 		"image": "https://i.postimg.cc/MTLQMq9x/dijkstra-critical-point.gif",
-		"link": "https://github.com/francoismartineau/snake_game"
+		"repo": "https://github.com/francoismartineau/snake_game"
 	},
 	{
 		"title": "Web Scraper",
 		"text": "Automatically shops on the web, looking for products with specific characteristics under a price threshold. It updates a sheets document and notifies me.\n(Python, Selenium, Google apis)",
 		"image": "https://i.postimg.cc/QtmDqWfD/scraper2.png",
-		"link": "https://github.com/francoismartineau/scraper"
+		"repo": "https://github.com/francoismartineau/scraper"
 	},
 	{
 		"title": "Transactions parser",
-		"text": "Automates the analysis of my personal finances.<br>(Python, Tesseract-OCR, Google Sheets api)",
-		"image": "",
-		"link": "https://github.com/francoismartineau/transactions"
+		"text": "Automated personal finance analysis. I input my bank statements, and it graphically expresses how I've been using my money. (Python, Tesseract-OCR, Google Sheets api)",
+		"image": "https://i.postimg.cc/XvLdbSHg/Transactions.png",
+		"repo": "https://github.com/francoismartineau/transactions"
 	},
 	{
 		"title": "Web Game",
 		"text": "A game intended for movie buffs who want to challenge their knowledge of their favorite movies.<br>(Python, Flask, ffmpeg, Cloudinary api, html, js)",
 		"image": "https://i.postimg.cc/hGhZYQ4g/Screen-Shot-2024-01-05-at-10-27-45-AM.png",
-		"link": "https://github.com/francoismartineau/moviesorter"
+		"repo": "https://github.com/francoismartineau/moviesorter"
 	},
 	{
 		"title": "Minishell",
-		"text": "A shell written in C that immitates bash.",
+		"text": "A shell written in C that immitates bash. It supports pipes, redirections, wildcards, tab completion and more! Developed as part of my studies at 42 with a friend.",
 		"image": "https://i.postimg.cc/Kzv0JVYs/Screen-Shot-2024-01-05-at-4-18-46-PM.png",
-		"link": "https://github.com/Ethylia/minishell"
+		"repo": "https://github.com/Ethylia/minishell"
 	},	
 	{
-		"title": "Isometric wireframe projection",
-		"text": "A C program that displays a map.",
+		"title": "Map projection",
+		"text": "A C program that displays an isometric wireframe map. Slopes can be exaggerated, the map can be rotated with 90 degrees increments.",
 		"image": "https://camo.githubusercontent.com/ee318a66980cabdb04f5aee59f77f2262a4a1774f6e964e713d468abd71eeac6/68747470733a2f2f692e706f7374696d672e63632f57626d524e4a5a6a2f53637265656e2d53686f742d323032342d30312d30342d61742d31312d35332d31352d414d2e706e67",
-		"link": "https://github.com/francoismartineau/42Fdf"
+		"repo": "https://github.com/francoismartineau/42Fdf"
 	},
 	{
 		"title": "FLahk",
-		"text": "An interface that sits on top of FL Studio. Speeds up workflow, suggests",
-		"image": "",
-		"link": "https://github.com/francoismartineau/FLahk"
+		"text": "Sits on top and improves FL Studio by speeding up the workflow and putting the user in unforseen situations, fostering creativity. This project is the combination of my love for music, programming and experimentation.",
+		"image": "https://i.postimg.cc/Jnhd9BC7/flahk.png",
+		"repo": "https://github.com/francoismartineau/FLahk"
 	},
 	{
 		"title": "Philosophers",
 		"text": "A C program completed as part of my studies at 42 where N threads must share ressources fairly. I worked with threads, mutexes, forks and semaphores.",
 		"image": "https://i.postimg.cc/c15mqXRq/Screen-Shot-2024-01-05-at-11-28-12-AM.png",
-		"link": "https://github.com/francoismartineau/42Philosophers"
+		"repo": "https://github.com/francoismartineau/42Philosophers"
 	},
 	{
 		"title": "ft_irc",
-		"text": "A chat server in C++ that follows the IRC protocol. Compatible with any IRC client and robust thanks to our stress tests.",
-		"image": "",
-		"link": "https://github.com/emgervais/ft_irc"
+		"text": "A chat server in C++ that follows the IRC protocol. Compatible with any IRC client. Our tester ensures it stays reliable under stress.",
+		"image": "https://i.postimg.cc/XNs0RG7G/irc.gif",
+		"repo": "https://github.com/emgervais/ft_irc"
 	},
 	{
-		"title": "A server that provides tools for Prop Lavage inc.",
+		"title": "Truck routes optimiation",
 		"text": "It offers a password protected web interface intended to employees of the company. When a customer asks for our services, we can use the interface to get a list of days where it would be optimal to place the contract by calculating the distance between the customer's house and all our fixed contracts in a given time window. It is useful because:\n.It makes contract management faster, easier and more precise.\n.The added precision reduces time spent on the road meaning less mileage and less time wasted by employees on the road.\n.Trucks tend to be closer, meaning if a team encounters a problem, other teams are likely to be able to help.\nOnce a route is complete, the person in charge of managing contracts clicks a button to sort the addresses to optimize the route's length.\nThere is also a module that automatically sends sms to clients the day before their service. The goal is to avoid going at a customer's house that changed their mind.",
 		"image": "",
-		"link": ""
+		"repo": ""
 	},
 	{
 		"title": "Internship at Coyote Amérique",
 		"text": "I participated in the R&D division working on the next version of Coyote, an app/device that competes with Google Maps in Europe. As a full-stack developer, I created a monitoring tool designed for my team and other colleagues. Throughout this project, I gained proficiency in Go, Vue.js, Docker, gRPC, Apache Kafka, and Kubernetes. I also honed my skills in Git and Bash. Specifically for Vue.js, I served as a scout, introducing and presenting the technology to my peers. I am very happy with this internship and am grateful for my colleagues who were very knowledgeable and generous.",
 		"image": "https://i.postimg.cc/855dF6Rf/coyote-tower.png",
-		"link": ""
+		"repo": ""
 	}
 ]

@@ -12,7 +12,7 @@ fetch('projects.json')
     `${project.image ? `<img src="${project.image}" alt="...">` : ''}
         <h5 class="card-title">${project.title}</h5>
         <p class="card-text">${project.text}</p>
-        ${project.link ? `<a href="${project.link}" class="btn btn-primary">Repository</a>` : ''}`;    
+        ${project.repo ? `<a href="${project.repo}" class="btn btn-primary">Repository</a>` : ''}`;    
       container.appendChild(div);
   });
   // container.appendChild(row);

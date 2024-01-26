@@ -13,6 +13,7 @@
 	padding: 20px;
 	justify-content: space-between;
 }
+
 .card img {
 	max-width: 100%;
 }
@@ -22,3 +23,7 @@
 	text-align: center;
 }
 
+body {
+	background-color: lightgray;
+	color: black;
+}
