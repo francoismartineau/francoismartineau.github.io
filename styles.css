@@ -27,3 +27,8 @@ body {
 	background-color: lightgray;
 	color: black;
 }
+
+#projectsContainer #title {
+	margin-top: 5%;
+	width: 80%;
+}
