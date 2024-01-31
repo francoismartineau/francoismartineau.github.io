@@ -54,10 +54,10 @@
 		"repo": "https://github.com/emgervais/ft_irc"
 	},
 	{
-		"title": "Truck routes optimiation",
+		"title": "Routes optimizations",
 		"text": "It offers a password protected web interface intended to employees of the company. When a customer asks for our services, we can use the interface to get a list of days where it would be optimal to place the contract by calculating the distance between the customer's house and all our fixed contracts in a given time window. It is useful because:\n.It makes contract management faster, easier and more precise.\n.The added precision reduces time spent on the road meaning less mileage and less time wasted by employees on the road.\n.Trucks tend to be closer, meaning if a team encounters a problem, other teams are likely to be able to help.\nOnce a route is complete, the person in charge of managing contracts clicks a button to sort the addresses to optimize the route's length.\nThere is also a module that automatically sends sms to clients the day before their service. The goal is to avoid going at a customer's house that changed their mind.",
 		"image": "",
-		"repo": ""
+		"video": "https://player.vimeo.com/video/908054432?h=de652abe0f"
 	},
 	{
 		"title": "Internship at Coyote Amérique",
