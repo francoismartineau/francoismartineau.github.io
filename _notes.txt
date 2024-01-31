@@ -1,3 +1,13 @@
+-------------------------------------------------------
+TODO:
+.moreContainer: title, on phone, video: take more place
+.button color
+.video: text
+
+Snake: utiliser le document pdf de remise (dijkstra)
+Upload PY notes
+----
+
 https://getbootstrap.com/docs/5.3/components/accordion/
 Accordion: liste d'items. Dérouler, rouler.
 Card: Image, titre, description
@@ -6,12 +16,3 @@ Placeholder:
 	Placer des Cards côte à côte
 
 
--------------------------------------------------------
-TODO:
-Snake: utiliser le document pdf de remise (dijkstra)
-FLahk: fais une petite démo.
-Upload gamepad
-Upload PY notes
-
-Minitalk gifs
-Minishell

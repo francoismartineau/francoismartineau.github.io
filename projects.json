@@ -1,74 +1,74 @@
 [
 	{
 		"title": "Routes optimizations",
-		"text": ".Minimizing the length of a route given multiple appointments.<br>.Scheduling new appointments with route optimization in mind.<br>(Python, Flask, Leaflet, Google Maps API, Google Agenda Api)",
+		"text": "<ul><li>Scheduling new appointments with route optimization in mind.</li><li>Minimizing the length of a route given multiple appointments.</li></ul><br><br>(Python, Flask, Leaflet, Google Maps and Agenda API)",
 		"image": "https://i.postimg.cc/L6CMfd4s/routes.png",
 		"more": {
-			"button": "Demo",
+			"button": "More",
 			"video": "https://player.vimeo.com/video/908054432?h=de652abe0f",
-			"text": "This software is intended for my previous employer Prop Lavage, but the skeleton was made flexible to accomodate anyone who needs to plan routes. Work in progress (backend: almost done, frontend: to do!)"
+			"text": "This software is intended for my previous employer Prop Lavage, but the project was developed with modularity in mind in order to accomodate other potential companies.<br><br>Work in progress: (Backend: almost done, Frontend: temporary minimalist implementation)"
 		}
 	},
 	{
 		"title": "Internship at Coyote Amérique",
-		"text": "I participated in the R&D division working on the next version of Coyote, an app/device that competes with Google Maps in Europe. As a full-stack developer, I created a monitoring tool designed for my team and other colleagues. Throughout this project, I gained proficiency in Go, Vue.js, Docker, gRPC, Apache Kafka, and Kubernetes. I also honed my skills in Git and Bash. Specifically for Vue.js, I served as a scout, introducing and presenting the technology to my peers. I am very happy with this internship and am grateful for my colleagues who were very knowledgeable and generous.",
+		"text": "A tool intended for developers that lives as a microservice among others and shows events flowing in gRPC and Kafka pipelines. Its web app let's users filter events in various ways. <a href=\"https://www.moncoyote.com/\">Coyote</a> offers a service rivalizing with Waze and Google Maps.<br><br>(Go, Vue.js, Docker)",
 		"image": "https://i.postimg.cc/855dF6Rf/coyote-tower.png",
 		"more": {
 			"button": "More",
-			"text": "salut"
+			"text": "This project is the fruit of an internship with the R&D team of Coyote Amérique. During this summer, I learned immensely and am grateful for the brilliant and generous colleagues who supported me. Later, I was happy to discover that developers from various divisions were still benefiting from my work."
 		}
 	},	
 	{
 		"title": "Snake Game",
-		"text": "Simple C++ game featuring a bot that uses the Dijkstra algorithm implemented in O(n). When the apple is not in reach, the X represents the most hopeful escape. The snake should zig-zag without blocking it. In progress.",
+		"text": "Simple game featuring a bot that uses the Dijkstra algorithm implemented in O(n). When the apple is not in reach, the X represents the most hopeful escape. The snake should zig-zag without blocking it. In progress.<br><br>(C++)",
 		"image": "https://i.postimg.cc/MTLQMq9x/dijkstra-critical-point.gif",
 		"repo": "https://github.com/francoismartineau/snake_game"
 	},
 	{
 		"title": "Web Scraper",
-		"text": "Automatically shops on the web, looking for products with specific characteristics under a price threshold. It updates a sheets document and notifies me.<br>(Python, Selenium, Google apis)",
+		"text": "Automatically shops on the web, looking for products with specific characteristics under a price threshold. It updates a sheets document and notifies me.<br><br>(Python, Selenium, Google APIs)",
 		"image": "https://i.postimg.cc/QtmDqWfD/scraper2.png",
 		"repo": "https://github.com/francoismartineau/scraper"
 	},
 	{
 		"title": "Transactions parser",
-		"text": "Automated personal finance analysis. The user inputs bank statements, and transactions are graphically expressed by category.<br>(Python, Tesseract-OCR, Google Sheets api)",
+		"text": "Automated personal finance analysis. The user inputs bank statements, and transactions are graphically expressed by category.<br><br>(Python, Tesseract-OCR, Google Sheets API)",
 		"image": "https://i.postimg.cc/XvLdbSHg/Transactions.png",
 		"repo": "https://github.com/francoismartineau/transactions"
 	},
 	{
 		"title": "Web Game",
-		"text": "A game intended for movie buffs who want to challenge their knowledge of their favorite movies.<br>(Python, Flask, ffmpeg, Cloudinary api, html, js)",
+		"text": "A game intended for movie buffs who want to challenge their knowledge of their favorite movies.<br><br>(Python, Flask, ffmpeg, Cloudinary API, html, js)",
 		"image": "https://i.postimg.cc/hGhZYQ4g/Screen-Shot-2024-01-05-at-10-27-45-AM.png",
 		"repo": "https://github.com/francoismartineau/moviesorter"
 	},
 	{
 		"title": "Minishell",
-		"text": "A shell written in C that immitates bash. It supports pipes, redirections, wildcards, tab completion and more! Developed as part of my studies at 42 with a friend.",
+		"text": "A shell that immitates bash. It supports pipes, redirections, wildcards, tab completion and more! Developed as part of my studies at 42 with a colleague.<br><br>(C)",
 		"image": "https://i.postimg.cc/Kzv0JVYs/Screen-Shot-2024-01-05-at-4-18-46-PM.png",
 		"repo": "https://github.com/Ethylia/minishell"
 	},	
 	{
 		"title": "Map projection",
-		"text": "A C program that displays an isometric wireframe map. Slopes can be exaggerated, the map can be rotated with 90 degrees increments.",
+		"text": "A program that displays an isometric wireframe map. Slopes can be exaggerated, the map can be rotated with 90 degrees increments.<br><br>(C)",
 		"image": "https://camo.githubusercontent.com/ee318a66980cabdb04f5aee59f77f2262a4a1774f6e964e713d468abd71eeac6/68747470733a2f2f692e706f7374696d672e63632f57626d524e4a5a6a2f53637265656e2d53686f742d323032342d30312d30342d61742d31312d35332d31352d414d2e706e67",
 		"repo": "https://github.com/francoismartineau/42Fdf"
 	},
 	{
 		"title": "FLahk",
-		"text": "Sits on top and improves FL Studio by speeding up the workflow and putting the user in unforseen situations, fostering creativity. This project is the combination of my passion for music, programming and experimentation.",
+		"text": "Sits on top and improves FL Studio by speeding up the workflow and putting the user in unforseen situations, fostering creativity. This project is the combination of my passion for music, programming and experimentation.<br><br>(AutoHotKey, Python, ffmpeg)",
 		"image": "https://i.postimg.cc/Jnhd9BC7/flahk.png",
 		"repo": "https://github.com/francoismartineau/FLahk"
 	},
 	{
 		"title": "Philosophers",
-		"text": "A C program completed as part of my studies at 42 where N threads must share ressources fairly. I worked with threads, mutexes, forks and semaphores.",
+		"text": "An exercise completed as part of my studies at 42 where N threads must share ressources fairly with high precision. I worked with threads, mutexes, forks and semaphores.<br><br>(C)",
 		"image": "https://i.postimg.cc/c15mqXRq/Screen-Shot-2024-01-05-at-11-28-12-AM.png",
 		"repo": "https://github.com/francoismartineau/42Philosophers"
 	},
 	{
 		"title": "ft_irc",
-		"text": "A chat server in C++ that follows the IRC protocol. Compatible with any IRC client. Our tester ensures it stays reliable under stress.",
+		"text": "A chat server that follows the IRC protocol. Compatible with any IRC client. Our tester simulates intense stress and was essential to ensure robustness. Implemented with two colleagues.<br><br>(C++)",
 		"image": "https://i.postimg.cc/XNs0RG7G/irc.gif",
 		"repo": "https://github.com/emgervais/ft_irc"
 	}

@@ -1,23 +1,3 @@
-function showMore(video, text) {
-  document.getElementById('dimOverlay').style.display = 'block';
-  const moreContainer = document.getElementById('moreContainer');
-  const components = [];
-  if (video) {
-    components.push(`<iframe title="vimeo-player" src="${video}" style="width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>`);
-  }
-  if (text !== 'undefined') {
-    components.push(`<p>${text}<\p>`);
-  }
-  moreContainer.innerHTML = components.join('');
-  moreContainer.style.display = 'block';
-}
-
-function hideMore() {
-  document.getElementById('dimOverlay').style.display = 'none';
-  document.getElementById('moreContainer').style.display = 'none';
-  document.getElementById('moreContainer').innerHTML = '';
-}
-
 fetch('projects.json')
 .then(response => response.json())
 .then(data => {
@@ -38,14 +18,13 @@ fetch('projects.json')
         text = "";
       if (!video)
         video = "";
-      cardComponents.push(`<button class="btn btn-primary" onclick="showMore('${video}', '${text}')">${button}</button>`);
+      cardComponents.push(`<button class="btn btn-primary" onclick="showMore('${project.title}', '${video}', '${text}')">${button}</button>`);
     }
     const div = document.createElement('div');
     div.innerHTML = cardComponents.join('');
     div.classList.add('card');
+    div.classList.add('project');
     container.appendChild(div);
   });
 })
 .catch(error => console.error('Error:', error));
-
-
