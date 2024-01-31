@@ -1,22 +1,22 @@
-function openVideo(videoSrc) {
+function showMore(video, text) {
   document.getElementById('dimOverlay').style.display = 'block';
-  const videoContainer = document.getElementById('videoContainer');
-  videoContainer.style.display = 'block';
-  videoContainer.innerHTML = `<iframe title="vimeo-player" src="${videoSrc}" style="width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>`;
-}
-
-function closeVideo() {
-  document.getElementById('dimOverlay').style.display = 'none';
-  document.getElementById('videoContainer').style.display = 'none';
-  document.getElementById('videoContainer').innerHTML = '';
-}
-
-document.getElementById('dimOverlay').addEventListener('click', function(event) {
-  const videoContainer = document.getElementById('videoContainer');
-  if (!videoContainer.contains(event.target)) {
-      closeVideo();
+  const moreContainer = document.getElementById('moreContainer');
+  const components = [];
+  if (video) {
+    components.push(`<iframe title="vimeo-player" src="${video}" style="width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>`);
   }
-});
+  if (text !== 'undefined') {
+    components.push(`<p>${text}<\p>`);
+  }
+  moreContainer.innerHTML = components.join('');
+  moreContainer.style.display = 'block';
+}
+
+function hideMore() {
+  document.getElementById('dimOverlay').style.display = 'none';
+  document.getElementById('moreContainer').style.display = 'none';
+  document.getElementById('moreContainer').innerHTML = '';
+}
 
 fetch('projects.json')
 .then(response => response.json())
@@ -32,8 +32,13 @@ fetch('projects.json')
     if (project.repo) {
       cardComponents.push(`<a href="${project.repo}" class="btn btn-primary" target="_blank">Repository</a>`);
     }
-    if (project.video) {
-      cardComponents.push(`<button class="btn btn-primary" onclick="openVideo('${project.video}')">Video</button>`);
+    if (project.more) {
+      var { video, text, button } = project.more;
+      if (!text)
+        text = "";
+      if (!video)
+        video = "";
+      cardComponents.push(`<button class="btn btn-primary" onclick="showMore('${video}', '${text}')">${button}</button>`);
     }
     const div = document.createElement('div');
     div.innerHTML = cardComponents.join('');

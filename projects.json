@@ -1,5 +1,24 @@
 [
 	{
+		"title": "Routes optimizations",
+		"text": ".Minimizing the length of a route given multiple appointments.<br>.Scheduling new appointments with route optimization in mind.<br>(Python, Flask, Leaflet, Google Maps API, Google Agenda Api)",
+		"image": "https://i.postimg.cc/L6CMfd4s/routes.png",
+		"more": {
+			"button": "Demo",
+			"video": "https://player.vimeo.com/video/908054432?h=de652abe0f",
+			"text": "This software is intended for my previous employer Prop Lavage, but the skeleton was made flexible to accomodate anyone who needs to plan routes. Work in progress (backend: almost done, frontend: to do!)"
+		}
+	},
+	{
+		"title": "Internship at Coyote Amérique",
+		"text": "I participated in the R&D division working on the next version of Coyote, an app/device that competes with Google Maps in Europe. As a full-stack developer, I created a monitoring tool designed for my team and other colleagues. Throughout this project, I gained proficiency in Go, Vue.js, Docker, gRPC, Apache Kafka, and Kubernetes. I also honed my skills in Git and Bash. Specifically for Vue.js, I served as a scout, introducing and presenting the technology to my peers. I am very happy with this internship and am grateful for my colleagues who were very knowledgeable and generous.",
+		"image": "https://i.postimg.cc/855dF6Rf/coyote-tower.png",
+		"more": {
+			"button": "More",
+			"text": "salut"
+		}
+	},	
+	{
 		"title": "Snake Game",
 		"text": "Simple C++ game featuring a bot that uses the Dijkstra algorithm implemented in O(n). When the apple is not in reach, the X represents the most hopeful escape. The snake should zig-zag without blocking it. In progress.",
 		"image": "https://i.postimg.cc/MTLQMq9x/dijkstra-critical-point.gif",
@@ -7,13 +26,13 @@
 	},
 	{
 		"title": "Web Scraper",
-		"text": "Automatically shops on the web, looking for products with specific characteristics under a price threshold. It updates a sheets document and notifies me.\n(Python, Selenium, Google apis)",
+		"text": "Automatically shops on the web, looking for products with specific characteristics under a price threshold. It updates a sheets document and notifies me.<br>(Python, Selenium, Google apis)",
 		"image": "https://i.postimg.cc/QtmDqWfD/scraper2.png",
 		"repo": "https://github.com/francoismartineau/scraper"
 	},
 	{
 		"title": "Transactions parser",
-		"text": "Automated personal finance analysis. I input my bank statements, and it graphically expresses how I've been using my money. (Python, Tesseract-OCR, Google Sheets api)",
+		"text": "Automated personal finance analysis. The user inputs bank statements, and transactions are graphically expressed by category.<br>(Python, Tesseract-OCR, Google Sheets api)",
 		"image": "https://i.postimg.cc/XvLdbSHg/Transactions.png",
 		"repo": "https://github.com/francoismartineau/transactions"
 	},
@@ -37,7 +56,7 @@
 	},
 	{
 		"title": "FLahk",
-		"text": "Sits on top and improves FL Studio by speeding up the workflow and putting the user in unforseen situations, fostering creativity. This project is the combination of my love for music, programming and experimentation.",
+		"text": "Sits on top and improves FL Studio by speeding up the workflow and putting the user in unforseen situations, fostering creativity. This project is the combination of my passion for music, programming and experimentation.",
 		"image": "https://i.postimg.cc/Jnhd9BC7/flahk.png",
 		"repo": "https://github.com/francoismartineau/FLahk"
 	},
@@ -52,17 +71,5 @@
 		"text": "A chat server in C++ that follows the IRC protocol. Compatible with any IRC client. Our tester ensures it stays reliable under stress.",
 		"image": "https://i.postimg.cc/XNs0RG7G/irc.gif",
 		"repo": "https://github.com/emgervais/ft_irc"
-	},
-	{
-		"title": "Routes optimizations",
-		"text": "It offers a password protected web interface intended to employees of the company. When a customer asks for our services, we can use the interface to get a list of days where it would be optimal to place the contract by calculating the distance between the customer's house and all our fixed contracts in a given time window. It is useful because:\n.It makes contract management faster, easier and more precise.\n.The added precision reduces time spent on the road meaning less mileage and less time wasted by employees on the road.\n.Trucks tend to be closer, meaning if a team encounters a problem, other teams are likely to be able to help.\nOnce a route is complete, the person in charge of managing contracts clicks a button to sort the addresses to optimize the route's length.\nThere is also a module that automatically sends sms to clients the day before their service. The goal is to avoid going at a customer's house that changed their mind.",
-		"image": "",
-		"video": "https://player.vimeo.com/video/908054432?h=de652abe0f"
-	},
-	{
-		"title": "Internship at Coyote Amérique",
-		"text": "I participated in the R&D division working on the next version of Coyote, an app/device that competes with Google Maps in Europe. As a full-stack developer, I created a monitoring tool designed for my team and other colleagues. Throughout this project, I gained proficiency in Go, Vue.js, Docker, gRPC, Apache Kafka, and Kubernetes. I also honed my skills in Git and Bash. Specifically for Vue.js, I served as a scout, introducing and presenting the technology to my peers. I am very happy with this internship and am grateful for my colleagues who were very knowledgeable and generous.",
-		"image": "https://i.postimg.cc/855dF6Rf/coyote-tower.png",
-		"repo": ""
 	}
 ]
