@@ -10,7 +10,7 @@ fetch('projects.json')
     cardComponents.push(`<h5 class="card-title">${project.title}</h5>`);
     cardComponents.push(`<p class="card-text">${project.text}</p>`);
     if (project.repo) {
-      cardComponents.push(`<a href="${project.repo}" class="btn btn-primary" target="_blank">Repository</a>`);
+      cardComponents.push(`<a href="${project.repo}" class="btn btn-dark" target="_blank">Repository</a>`);
     }
     if (project.more) {
       var { video, text, button } = project.more;
@@ -18,7 +18,7 @@ fetch('projects.json')
         text = "";
       if (!video)
         video = "";
-      cardComponents.push(`<button class="btn btn-primary" onclick="showMore('${project.title}', '${video}', '${text}')">${button}</button>`);
+      cardComponents.push(`<button class="btn btn-dark" onclick="showMore('${project.title}', '${video}', '${text}')">${button}</button>`);
     }
     const div = document.createElement('div');
     div.innerHTML = cardComponents.join('');
