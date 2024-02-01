@@ -6,7 +6,7 @@
 		"more": {
 			"button": "More",
 			"video": "https://player.vimeo.com/video/908784269?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-			"text": "This software is intended for my previous employer Prop Lavage, but the project was developed with modularity in mind in order to accomodate other potential companies.<br><br>Work in progress: (Backend: almost done, Frontend: temporary minimalist implementation)"
+			"text": "This software is intended for my previous employer Prop Lavage, but the project was developed with modularity in mind in order to accomodate other potential companies.<br><br>The backend is almost done, this frontend is a temporary minimalist implementation."
 		}
 	},
 	{
