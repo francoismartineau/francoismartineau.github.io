@@ -10,21 +10,21 @@
 		}
 	},
 	{
-		"title": "Internship at Coyote Amérique",
-		"text": "A tool intended for developers that lives as a microservice among others and shows events flowing in gRPC and Kafka pipelines. Its web app let's users filter events in various ways. <a href=\"https://www.moncoyote.com/\">Coyote</a> offers a service rivalizing with Waze and Google Maps.<br><br>(Go, Vue.js, Docker)",
-		"image": "https://i.postimg.cc/855dF6Rf/coyote-tower.png",
-		"more": {
-			"button": "More",
-			"image": "https://i.postimg.cc/855dF6Rf/coyote-tower.png",
-			"text": "This project is the fruit of an internship with the R&D team of Coyote Amérique. During this summer, I learned immensely and am grateful for the brilliant and generous colleagues who supported me. Later, I was happy to discover that developers from various divisions were still benefiting from my work."
-		}
-	},	
-	{
 		"title": "Snake Game",
 		"text": "Simple game featuring a bot that uses the Dijkstra algorithm implemented in O(n). When the apple is not in reach, the X represents the most hopeful escape. The snake should zig-zag without blocking it. In progress.<br><br>(C++)",
 		"image": "https://i.postimg.cc/MTLQMq9x/dijkstra-critical-point.gif",
 		"repo": "https://github.com/francoismartineau/snake_game"
 	},
+	{
+		"title": "Internship at Coyote Amérique",
+		"text": "A web app intended for developers that lives as a microservice among others and shows events flowing in gRPC and Kafka pipelines. It lets users filter events in various ways. <br><br>(Go, Vue.js, Docker)",
+		"image": "https://i.postimg.cc/855dF6Rf/coyote-tower.png",
+		"more": {
+			"button": "More",
+			"image": "https://i.postimg.cc/855dF6Rf/coyote-tower.png",
+			"text": "This project is the fruit of an internship with the R&D team of Coyote Amérique. Coyote offers a service rivalizing with Waze and Google Maps. During this summer, I learned immensely and am grateful for the brilliant and generous colleagues who supported me. Later, I was happy to discover that developers from various divisions were still benefiting from my work."
+		}
+	},	
 	{
 		"title": "Web Scraper",
 		"text": "Automatically shops on the web, looking for products with specific characteristics under a price threshold. It updates a sheets document and notifies me.<br><br>(Python, Selenium, Google APIs)",
@@ -45,31 +45,31 @@
 	},
 	{
 		"title": "Minishell",
-		"text": "A shell that immitates bash. It supports pipes, redirections, wildcards, tab completion and more! Developed as part of my studies at 42 with a colleague.<br><br>(C)",
+		"text": "A shell that immitates bash. It supports pipes, redirections, wildcards, tab completion and more! Developed as part of my studies with a colleague at 42 Québec.<br><br>(C)",
 		"image": "https://i.postimg.cc/Kzv0JVYs/Screen-Shot-2024-01-05-at-4-18-46-PM.png",
 		"repo": "https://github.com/Ethylia/minishell"
 	},	
 	{
 		"title": "Map projection",
-		"text": "A program that displays an isometric wireframe map. Slopes can be exaggerated, the map can be rotated with 90 degrees increments.<br><br>(C)",
+		"text": "A program that reads height data and displays an isometric wireframe map. Slopes can be exaggerated, the map can be rotated with 90 degrees increments.<br><br>(C)",
 		"image": "https://camo.githubusercontent.com/ee318a66980cabdb04f5aee59f77f2262a4a1774f6e964e713d468abd71eeac6/68747470733a2f2f692e706f7374696d672e63632f57626d524e4a5a6a2f53637265656e2d53686f742d323032342d30312d30342d61742d31312d35332d31352d414d2e706e67",
 		"repo": "https://github.com/francoismartineau/42Fdf"
 	},
 	{
 		"title": "FLahk",
-		"text": "Sits on top and improves FL Studio by speeding up the workflow and putting the user in unforseen situations, fostering creativity. This project is the combination of my passion for music, programming and experimentation.<br><br>(AutoHotKey, Python, ffmpeg)",
+		"text": "Sits on top and improves FL Studio (a popular music production software) by speeding up the workflow and putting the user in unforseen situations, fostering creativity. This project is the combination of my passion for music, programming and experimentation.<br><br>(AutoHotKey, Python, ffmpeg)",
 		"image": "https://i.postimg.cc/Jnhd9BC7/flahk.png",
 		"repo": "https://github.com/francoismartineau/FLahk"
 	},
 	{
 		"title": "Philosophers",
-		"text": "An exercise completed as part of my studies at 42 where N threads must share ressources fairly with high precision. I worked with threads, mutexes, forks and semaphores.<br><br>(C)",
+		"text": "An exercise completed as part of my studies at 42 Québec where N threads must share ressources fairly with high precision. I worked with threads, mutexes, forks and semaphores.<br><br>(C)",
 		"image": "https://i.postimg.cc/c15mqXRq/Screen-Shot-2024-01-05-at-11-28-12-AM.png",
 		"repo": "https://github.com/francoismartineau/42Philosophers"
 	},
 	{
 		"title": "ft_irc",
-		"text": "A chat server that follows the IRC protocol. Compatible with any IRC client. Our tester simulates intense stress and was essential to ensure robustness. Implemented with two colleagues.<br><br>(C++)",
+		"text": "A chat server that follows the IRC protocol. Compatible with any IRC client. Our tester simulates intense stress and was essential to ensure robustness. Implemented with two colleagues at 42 Québec.<br><br>(C++)",
 		"image": "https://i.postimg.cc/XNs0RG7G/irc.gif",
 		"repo": "https://github.com/emgervais/ft_irc"
 	}
