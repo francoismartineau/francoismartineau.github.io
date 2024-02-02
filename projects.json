@@ -22,7 +22,7 @@
 		"more": {
 			"button": "More",
 			"image": "https://i.postimg.cc/855dF6Rf/coyote-tower.png",
-			"text": "This project is the fruit of an internship with the R&D team of Coyote Amérique. Coyote offers a service rivalizing with Waze and Google Maps. During this summer, I learned immensely and am grateful for the brilliant and generous colleagues who supported me. Later, I was happy to discover that developers from various divisions were still benefiting from my work."
+			"text": "This project is the fruit of an internship with the R&D team of Coyote Amérique. <a href=\"https://www.moncoyote.com/\" target=\"_blank\">Coyote</a> offers a service rivalizing with Waze and Google Maps. During this summer, I learned immensely and am grateful for the brilliant and generous colleagues who supported me. Later, I was happy to discover that developers from various divisions were still benefiting from my work."
 		}
 	},	
 	{

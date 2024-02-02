@@ -1,20 +1,19 @@
 var MORE_SHOWN;
 
-function showMore(title, video, image, text) {
+function showMore(index) {
   document.getElementById('dimOverlay').style.display = 'block';
-  
+  const data = PROJECTS[index].more;
   const moreContainer = document.getElementById('moreContainer');
   const components = [];
-  components.push(`<h4 class="card-title">${title}</h4>`);
-  if (video) {
-    // components.push(`<iframe title="vimeo-player" src="${video}" frameborder="0" allowfullscreen></iframe>`);
-    components.push(`<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="${video}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>`);
+  components.push(`<h4 class="card-title">${data.title}</h4>`);
+  if (data.video) {
+    components.push(`<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="${data.video}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>`);
   }
-  if (image) {
-    components.push(`<img src="${image}"></img>`)
+  if (data.image) {
+    components.push(`<img src="${data.image}"></img>`)
   }
-  if (text !== 'undefined') {
-    components.push(`<p>${text}<\p>`);
+  if (data.text) {
+    components.push(`<p>${data.text}<\p>`);
   }
   moreContainer.innerHTML = components.join('');
   moreContainer.style.display = 'block';
