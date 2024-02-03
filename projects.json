@@ -1,17 +1,16 @@
 [
 	{
 		"title": "Routes optimizations",
-		"text": "<ul><li>Scheduling new appointments with route optimization in mind.</li><li>Minimizing the length of a route given multiple appointments.</li></ul><br><br>(Python, Flask, Leaflet, Google Maps and Agenda API)",
+		"text": "<ul><li>Scheduling new appointments with route optimization in mind.</li><li>Minimizing the length of a route given multiple appointments.</li></ul>(Python, Flask, Leaflet, Google Maps and Agenda API)",
 		"image": "https://i.postimg.cc/L6CMfd4s/routes.png",
 		"more": {
-			"button": "More",
 			"video": "https://player.vimeo.com/video/908784269?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
 			"text": "This software is intended for my previous employer Prop Lavage, but the project was developed with modularity in mind in order to accomodate other potential companies.<br><br>The backend is almost done, this frontend is a temporary minimalist implementation."
 		}
 	},
 	{
 		"title": "Snake Game",
-		"text": "Simple game featuring a bot that uses the Dijkstra algorithm implemented in O(n). When the apple is not in reach, the X represents the most hopeful escape. The snake should zig-zag without blocking it. In progress.<br><br>(C++)",
+		"text": "Simple game featuring a bot that uses the Dijkstra algorithm implemented in linear time. When the apple is not in reach, the X represents the most hopeful escape. The snake should zig-zag without blocking it. In progress.<br><br>(C++)",
 		"image": "https://i.postimg.cc/MTLQMq9x/dijkstra-critical-point.gif",
 		"repo": "https://github.com/francoismartineau/snake_game"
 	},
@@ -20,14 +19,16 @@
 		"text": "A web app intended for developers that lives as a microservice among others and shows events flowing in gRPC and Kafka pipelines. It lets users filter events in various ways. <br><br>(Go, Vue.js, Docker)",
 		"image": "https://i.postimg.cc/855dF6Rf/coyote-tower.png",
 		"more": {
-			"button": "More",
-			"image": "https://i.postimg.cc/855dF6Rf/coyote-tower.png",
-			"text": "This project is the fruit of an internship with the R&D team of Coyote Amérique. <a href=\"https://www.moncoyote.com/\" target=\"_blank\">Coyote</a> offers a service rivalizing with Waze and Google Maps. During this summer, I learned immensely and am grateful for the brilliant and generous colleagues who supported me. Later, I was happy to discover that developers from various divisions were still benefiting from my work."
+			"images": ["https://i.postimg.cc/v8PCD5HF/coyote1.png",
+				"https://i.postimg.cc/hPBMDjVW/coyote2.png",
+				"https://i.postimg.cc/fbJf20QX/coyote3.png",
+				"https://i.postimg.cc/wBZcST9r/coyote4.png"],
+			"text": "This project is the fruit of an internship with the R&D team of Coyote Amérique. <a href=\"https://www.moncoyote.com/\" target=\"_blank\">Coyote</a> sells a driver assistant based on inputs from its community. During this summer, I learned immensely and am grateful for the brilliant and generous colleagues who supported me. Later, I was happy to discover that developers from various divisions were still benefiting from my work."
 		}
 	},	
 	{
 		"title": "Web Scraper",
-		"text": "Automatically shops on the web, looking for products with specific characteristics under a price threshold. It updates a sheets document and notifies me.<br><br>(Python, Selenium, Google APIs)",
+		"text": "Automatically shops on the web, looking for products with specific characteristics under a price threshold. When it finds a gem, a Sheets document is updated and I'm notified by email.<br><br>(Python, Selenium, Google APIs)",
 		"image": "https://i.postimg.cc/QtmDqWfD/scraper2.png",
 		"repo": "https://github.com/francoismartineau/scraper"
 	},
@@ -59,7 +60,10 @@
 		"title": "FLahk",
 		"text": "Sits on top and improves FL Studio (a popular music production software) by speeding up the workflow and putting the user in unforseen situations, fostering creativity. This project is the combination of my passion for music, programming and experimentation.<br><br>(AutoHotKey, Python, ffmpeg)",
 		"image": "https://i.postimg.cc/Jnhd9BC7/flahk.png",
-		"repo": "https://github.com/francoismartineau/FLahk"
+		"more": {
+			"text": "<b>Initial motivation:</b> When I switched back to FL Studio, I realized many operations were repetitive and I wanted to speed things up by removing non creative steps. It started with macros, automating the mouse and keyboard and I ended up making the computer make more and more significant choices.<br><br><b>Philosophy:</b> I think nature is beautiful because it chaotically follows rules. I wanted to interact with my instrument like I would explore nature. Sound selections, configurations and names creation are influenced by scoped randomness.<br><br><b>Challenge:</b> FL Studio is a black box that isn't made to be programmatically interacted with, but that didn't stop me and I experimented with many techniques and technologies. I used Human Interface Devices as controllers, sent data between processes through Midi busses and analyzed FL Studio's state through pixel colors, windows' data and Optical Character Recognition. If I was Frankenstein, this would be my monster. One doesn't realize the importance of code quality until their project is big enough. When I was approached to sell modules from this project, I was glad I had taken time to split configuration from logic, but not everything was perfect and I could never forget the lessons this project taught me.",
+			"repo": "https://github.com/francoismartineau/FLahk"
+		}
 	},
 	{
 		"title": "Philosophers",

@@ -16,7 +16,7 @@ fetch('projects.json')
       cardComponents.push(`<a href="${project.repo}" class="btn btn-dark btn-sm" target="_blank">Repository</a>`);
     }
     if (project.more) {
-      cardComponents.push(`<button class="btn btn-dark btn-sm" onclick="showMore('${index}')">${project.more.button}</button>`);
+      cardComponents.push(`<button class="btn btn-dark btn-sm" onclick="showMore('${index}')">More</button>`);
     }
     const div = document.createElement('div');
     div.innerHTML = cardComponents.join('');

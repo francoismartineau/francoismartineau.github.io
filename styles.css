@@ -117,30 +117,32 @@ body {
     padding-bottom: 10px;
 }
 
-#moreContainer div {
+#moreVideo {
     height: 360px;
 }
 @media (max-width: 640px) {
-    #moreContainer div {
+    #moreVideo {
         height: 180px;
     }
 }
 @media (max-width: 280px) {
-    #moreContainer div {
+    #moreVideo {
         height: 90px;
     }
 }
 
-#moreContainer img {
+
+#moreCarousel {
     width: 640px;
+    margin: auto;
 }
 @media (max-width: 640px) {
-    #moreContainer img {
+    #moreCarousel {
         width: 320px;
     }
 }
 @media (max-width: 280px) {
-    #moreContainer img {
+    #moreCarousel {
         width: 160px;
     }
 }
