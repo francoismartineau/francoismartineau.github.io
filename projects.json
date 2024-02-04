@@ -10,7 +10,7 @@
 	},
 	{
 		"title": "Snake Game",
-		"text": "Simple game featuring a bot that utilizes the Dijkstra algorithm implemented in linear time. When the apple is out of reach, the 'X' represents the most hopeful escape. The snake should zig-zag without blocking it. In progress.<br><br>(C++)",
+		"text": "Simple game featuring a bot that utilizes the Dijkstra algorithm. When the apple is out of reach, the 'X' represents the most hopeful escape. The snake should zig-zag without blocking it. In progress.<br><br>(C++)",
 		"image": "https://i.postimg.cc/MTLQMq9x/dijkstra-critical-point.gif",
 		"repo": "https://github.com/francoismartineau/snake_game"
 	},
